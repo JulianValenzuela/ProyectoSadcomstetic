@@ -1,0 +1,351 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+title{
+    background-color: black;
+    left: 80px;
+}
+
+body{
+    background-color: rgb(248, 248, 248);
+    font-family: sans-serif;
+    padding: 60PX 0PX;
+    
+}
+
+
+#contenedor {
+    width: 100%;   
+    overflow: hidden;
+    background-color:rgba(199, 173, 90,  0.26);
+}
+header{
+    background-color: black;
+    left: 30px;   
+}
+.header {
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    
+}
+.nav-link{
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+}
+.imgl{
+    padding: 0 40px;
+    height: 80px;
+    width: 660px ;
+    line-height: 80px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+    
+}
+.nav-menu a{
+    color: #000;
+    font-size: 20px;
+}
+.nav-menu-link:hover {
+    background-color: #adafb1;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.nav-toggle{
+    color: rgb(0, 0, 0);
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+}
+#contenido {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: rgba(199, 173, 90, 0);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 1000px;
+    padding: 20px;
+    
+}
+
+.controles{
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+}
+.form-register a{
+    color: white;
+    text-decoration: none;
+}
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form-contacto{
+    width: 480px ;
+    background: #aaaaaa8a;
+    padding: 30px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+}
+.form-contacto h4{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+.form-contacto  .botoncc{
+    width: 100%;
+    background: #000000;
+    border: none;
+    padding: 7px;
+    color: rgb(255, 255, 255);
+    margin: 5px 0;
+    font-size: 21px;
+}
+input, textarea{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    margin-top: 3px;
+    padding: 7px;
+    font-size: 18px;
+    background-color:#ffffff;
+    border: 1px solid #000000;
+    border-radius: 4px;
+} 
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.quienes{
+    background: #ffffff ;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 4px;
+    border-radius: 4px;
+    
+
+    font-size: 18px;
+    margin-top: 30px;
+   
+    
+} 
+.quienes h2{
+    height: 40px;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0;
+}
+.fondoq{
+    background-color: rgba(199, 173, 90, 0.26);
+}
+.M{
+    width: 50%;
+    height: 100%;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 0px;
+    padding: 4px;
+}
+.M h2{
+    text-align: center;
+    font-size: 35px;
+}
+.V{
+    width: 50%;
+    height: 100%;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-right: 0px;
+    padding: 4px;
+}
+.V h2{
+    text-align: center;
+    font-size: 35px;
+}
+.menu{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+aside{
+    width: 78%;
+    height: auto;
+    background-color: rgba(199, 173, 90, 0);
+    margin-top: 5px; 
+    margin-right: 5  ;   
+    padding-left: 5px;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sadcom h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 40px;
+}
+.sadcom p{
+    font-size: 18px;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    clear:both;
+    height: 100%;
+    
+ }
+ footer li{
+     font-size: 18px;
+     list-style: none;
+     display: flex;
+     margin-right: 40px;
+    
+     font-size: 18px;
+     margin: 0 10px;
+
+    list-style: none;
+}
+
+ h1{
+     font-size: 50% ;
+ }
+
+.img1{
+    width: 450px; 
+    height: 300px;
+}
+.img2{
+    width: 450px; 
+    height: 300px;
+}
+.img3{
+    width: 450px; 
+    height: 300px; 
+}
+.img4{
+    width: 450px; 
+    height: 300px;  
+}
+@media screen and (max-width:700px) {
+    #contenido{
+        width: 100%;
+    
+    }
+    aside{
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width:400px) {
+    #contenedor{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+    @media (max-width: 720px){
+        
+    }
+}
+@media (max-width: 720px){
+    body{
+        padding-top: 30px 20px;
+        
+    }
+    .header {
+        height: 70px;
+    }
+    .imgl{
+        padding: 0 40px;
+        height: 70px;
+        width: 0 10px ;
+        line-height: 60px;
+    }
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        background-color: rgb(231, 231, 231);
+        position: fixed;
+        left: 0;
+        top: 70px;
+        width: 100%;
+        padding: 20px 0;
+
+        height: calc(100% - 60px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left 0.3s;
+        
+    }
+    .nav-menu-item{
+        
+        line-height: 70px;
+        
+    }
+    .nav-menu-link:hover{
+        background: none;
+        color: rgba(199, 173, 90, 0.486);
+    }
+    .nav-toggle{
+        display: block;
+    }
+    .nav-menu_visible{
+        left: 0;
+    }
+    }
+    
+
